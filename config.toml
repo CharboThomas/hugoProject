@@ -1,0 +1,47 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Thomas Charbonnet"
+theme = "github"
+copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+pygmentsUseClasses=true
+
+[params]
+  author = "Thomas Charbonnet"
+  description = "Engeneer Student at IPSA Paris"
+  keywords = "Thomas blog"
+  useAvatar = true
+  microBlogSection = "posts"
+  displayMicroBlog = true
+  displayRecent = true
+  recentMax = 4
+  mail = "thomas.charbonnet@ipsa.fr"
+  phone = "0783209696"
+  formspreeID = "yourformspreeID"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class=\"fas fa-home fa-sm\"></i>"
+    url = "/home"
+    weight = -9 
+  [[menu.main]]
+    name = "Project"
+    pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
+    url = "/project/"
+    weight = -8
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class=\"fas fa-tags fa-ms\"></i>"
+    url = "/tags"
+    weight = -7 
+  [[menu.main]]
+    name = "Github"
+    pre = "<i class=\"fab fa-github fa-ms\"></i>"
+    url = "https://github.com/CharboThomas/"
+    weight = -6 
+  [[menu.main]]
+    name = "Linkdln"
+    pre = "<i class=\"fas fa-rss fa-ms\"></i>"
+    url = "https://fr.linkedin.com/in/thomas-charbonnet-b031b3177"
+    weight = -4 
+ 
